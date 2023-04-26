@@ -1,0 +1,39 @@
+.header {
+  padding: 20px 20px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: blanchedalmond;
+}
+
+ul.gallery li {
+  float: left;
+  margin: 0px 10px;
+  padding: 10px;
+  border: 1px solid rgb(112, 16, 16);
+  list-style: none;
+}
+
+ul.gallery li a img {
+  float: left;
+  height: 200px;
+  width: 200px;
+
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -moz-transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+ul.gallery li a:hover img {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
